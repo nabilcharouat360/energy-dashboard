@@ -1,0 +1,46 @@
+/* ── Custom theme for European Commodities Dashboard ── */
+
+/* Global font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Sidebar polish */
+section[data-testid="stSidebar"] {
+    background-color: #12151E;
+    border-right: 1px solid #2D3340;
+}
+
+section[data-testid="stSidebar"] .stRadio > label {
+    font-size: 14px;
+}
+
+/* Hide Streamlit default burger menu & footer */
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+
+/* Metric delta colouring */
+[data-testid="stMetricDelta"] svg {
+    display: inline-block;
+}
+
+/* Plotly chart background override */
+.js-plotly-plot .plotly {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #0E1117;
+}
+::-webkit-scrollbar-thumb {
+    background: #2D3340;
+    border-radius: 3px;
+}
