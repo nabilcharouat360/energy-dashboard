@@ -9,7 +9,7 @@ html, body, [class*="css"] {
 
 /* Sidebar polish */
 section[data-testid="stSidebar"] {
-    background-color: #12151E;
+    background-color: #ffffff;
     border-right: 1px solid #2D3340;
 }
 

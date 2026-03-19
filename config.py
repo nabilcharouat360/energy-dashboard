@@ -95,7 +95,7 @@ TTF_PERIODS = {
 
 # ── Colour palette ────────────────────────────────────────────────
 COLORS = {
-    "bg_dark": "#0E1117",
+    "bg_dark": "#ffffff",
     "card_bg": "#1A1D26",
     "card_border": "#2D3340",
     "accent_green": "#00D26A",
